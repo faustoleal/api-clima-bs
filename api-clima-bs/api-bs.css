@@ -1,0 +1,129 @@
+:root {
+  --main-color: #edf0f0;
+  --color-rgba: rgba(0, 0, 0, 0.4);
+  --background-color: #141414;
+  --color-secundary: #3b3d3d;
+  --color-3: #424242;
+  --color-4: #595959;
+  --color-5: #757575;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px !important;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--main-color);
+  background-image: url(https://img.freepik.com/foto-gratis/paisaje-nubes-fantastico_1232-490.jpg?w=740&t=st=1673017240~exp=1673017840~hmac=673782a088ec84cc13e557a16b018958a9a060b8ba4921761c384e697045356b);
+  height: 100%;
+  background-position: 50% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--color-secundary);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-4);
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-5);
+}
+
+.weather::-webkit-scrollbar {
+  width: 5px;
+}
+
+.weather::-webkit-scrollbar-track {
+  background-color: var(--color-secundary);
+}
+
+.weather::-webkit-scrollbar-thumb {
+  background-color: var(--color-4);
+  border-radius: 5px;
+}
+
+.weather::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-5);
+}
+
+.none {
+  display: none;
+}
+
+/* colors */
+
+title i {
+  color: var(--main-color);
+}
+
+.ciudad {
+  background-color: var(--color-rgba);
+  border-color: transparent !important;
+}
+
+.info {
+  color: var(--main-color);
+  background-color: transparent;
+  border-color: var(--main-color) !important;
+}
+
+.info:hover {
+  background-color: var(--background-color);
+}
+
+.informacion-box {
+  border-color: var(--main-color);
+}
+
+.informacion-box div {
+  border-color: var(--main-color);
+}
+
+.informacion-box p {
+  margin: 8px;
+  padding-left: 8px;
+}
+
+.weather::-webkit-scrollbar {
+  width: 5px;
+}
+
+.weather::-webkit-scrollbar-track {
+  background-color: var(--color-rgba);
+}
+
+.weather::-webkit-scrollbar-thumb {
+  background-color: var(--color-4);
+  border-radius: 5px;
+}
+
+.weather::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-5);
+}
+
+.clima {
+  border-color: transparent !important;
+  background-color: var(--color-rgba);
+}
+
+@media (min-height: 1000px) {
+  #windy {
+    height: 850px !important;
+  }
+}
