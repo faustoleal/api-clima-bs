@@ -127,11 +127,11 @@ title i {
 }
 
 @media (min-height: 1150px) {
-  #windy {
-    height: 725px;
-  }
-
   .windy-box {
     height: 750px !important;
+  }
+
+  #windy {
+    height: 725px;
   }
 }
