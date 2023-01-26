@@ -126,7 +126,7 @@ title i {
   background-color: var(--color-rgba) !important;
 }
 
-@media (min-height: 1150px) {
+@media (min-height: 1000px) {
   .windy-box {
     height: 750px !important;
   }
