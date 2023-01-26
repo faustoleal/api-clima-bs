@@ -22,7 +22,7 @@
     <h1 class="p-1 m-1 fs-1">Clima</h1>
     <i class="fa-solid fa-umbrella py-1 my-1 fs-1"></i>
   </section>
-  <section id="ciudad" class="ciudad my-0 mx-auto d-flex flex-wrap  border border-1 rounded" style="width: 98%;">
+  <section id="ciudad" class="ciudad my-0 mx-auto d-flex flex-wrap  border border-1 rounded-4" style="width: 98%;">
     <article class="ciudad-details col-12 p-2">
       <h3 class="ciudad-nombre px-3 my-2 fs-5"></h3>
       <p class="ciudad-fecha px-3 my-2 fs-6"></p>
@@ -84,7 +84,10 @@
       </div>
     </article>
   </template>
-  <div id="windy" class="mx-auto border rounded-4 mt-4 mb-3" style="width: 98%; height: 500px;"></div>
+  <div class="windy-box my-3 mx-auto position-relative rounded-4" style="width: 98%; height: 500px;">
+    <div id="windy" class="rounded-4 position-absolute top-50 start-50 translate-middle"
+      style="width: 96%; height: 475px;"></div>
+  </div>
   <script src="api.js"></script>
   <script src="mostrar.js"></script>
   <script src="windy.js"></script>

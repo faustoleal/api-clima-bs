@@ -122,8 +122,16 @@ title i {
   background-color: var(--color-rgba);
 }
 
-@media (min-height: 1000px) {
+.windy-box {
+  background-color: var(--color-rgba);
+}
+
+@media (min-height: 1150px) {
   #windy {
-    height: 850px !important;
+    height: 725px;
+  }
+
+  .windy-box {
+    height: 750px;
   }
 }
